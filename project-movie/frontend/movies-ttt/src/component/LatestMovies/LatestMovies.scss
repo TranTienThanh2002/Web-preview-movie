@@ -1,0 +1,127 @@
+.latest-movies {
+  position: relative;
+  margin-bottom: 80px;
+  width: 100%;
+  max-width: 1520px;
+    margin-right: auto;
+    margin-left: auto;
+  .container {
+    .inner {
+      padding-top: 35px;
+      padding-left: 15px;
+      padding-right: 15px;
+      width: 100%;
+      .content {
+        .row-content {
+          margin-bottom: 120px !important;
+          position: relative;
+          width: 80%;
+          margin-right: auto;
+          margin-left: auto;
+          .content-inner {
+            padding-left: 15px;
+            padding-right: 15px;
+            width: 100%;
+            text-align: center;
+            .subtitle {
+              font-size: 0.813rem;
+              opacity: 0.6;
+              font-weight: 500;
+              margin-bottom: 15px;
+              letter-spacing: 2px;
+              text-transform: uppercase;
+            }
+            .title {
+              font-size: 3rem;
+              line-height: 1.2;
+            }
+            .text {
+              margin: 35px 0 0;
+              font-size: 1rem;
+              opacity: 0.6;
+            }
+          }
+        }
+        .row-item-list {
+          .item {
+            max-width: 1520px;
+            .item-content {
+              width: 100%;
+              position: relative;
+              .control-btn {
+                .next{
+                    right: 0;
+                }
+                .prev{
+                    left: 0;
+                }
+                button {
+                  position: absolute;
+                  background: none;
+                  border: none;
+                  bottom: 10px;
+                  z-index: 10;
+                  
+                  .icons {
+                    width: 24px;
+                    height: 24px;
+                    line-height: 24px;
+                    cursor: pointer;
+                    outline: none;
+                    
+                    transition: 0.3s;
+                  }
+                }
+              }
+              .slick-dots {
+                display: inline-block !important;
+                margin: 37px auto 0 !important;
+                padding: 37px 0 !important;
+                margin-top: 60px !important;
+                border-top: 1px solid rgba(0, 0, 0, 0.12);
+                position: relative !important;
+              }
+              .box-item {
+                text-align: center;
+                width: 90% !important;
+                margin-right: auto;
+                margin-left: auto;
+                .poster {
+                  position: relative;
+                  margin-bottom: 30px;
+                  a {
+                    img {
+                      width: 100%;
+                    }
+                  }
+                }
+                .details {
+                  .title {
+                    font-size: 1.375rem;
+                    font-weight: 600;
+                    margin-bottom: 2.5px;
+                  }
+                  .genres {
+                    display: flex;
+                    flex-wrap: wrap;
+                    font-size: 0.875rem;
+                    opacity: 0.6;
+                    justify-content: center;
+                    .genres-item {
+                      a {
+                        &:not(:last-child):after {
+                          content: ",";
+                          margin-right: 4px;
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

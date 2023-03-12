@@ -1,0 +1,40 @@
+.item-comment {
+  padding: 110px 0;
+  background: rgba(0, 0, 0, 0.04);
+  width: 100%;
+}
+.item-comment .container {
+  width: 1520px;
+  max-width: 100%;
+  padding: 0 100px;
+  margin: 0 auto;
+}
+.item-comment .container .comments {
+  max-width: 870px;
+  margin: 0 auto;
+}
+
+@media (min-width: 769px) and (max-width: 1025px) {
+  .item-comment .container {
+    padding: 0 30px;
+  }
+  .item-comment .container .comments {
+    max-width: 1024px;
+  }
+}
+@media (min-width: 426px) and (max-width: 768px) {
+  .item-comment .container {
+    padding: 0 30px;
+  }
+  .item-comment .container .comments {
+    max-width: 768px;
+  }
+}
+@media (max-width: 425px) {
+  .item-comment .container {
+    padding: 0 30px;
+  }
+  .item-comment .container .comments {
+    max-width: 425px;
+  }
+}/*# sourceMappingURL=Comment.css.map */

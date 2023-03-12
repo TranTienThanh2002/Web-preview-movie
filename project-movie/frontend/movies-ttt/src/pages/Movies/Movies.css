@@ -1,0 +1,39 @@
+.movies {
+  width: 100%;
+}
+.movies .movie {
+  width: 100%;
+}
+.movies .movie .container {
+  width: 100%;
+}
+.movies .movie .container .content {
+  width: 100%;
+}
+.movies .movie .container .content .list-item {
+  margin-bottom: 80px;
+  max-width: 1520px;
+  margin-right: auto;
+  margin-left: auto;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+@media (min-width: 769px) and (max-width: 1025px) {
+  .movies .movie .container .content .list-item {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (min-width: 426px) and (max-width: 768px) {
+  .movies .movie .container .content .list-item {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0;
+  }
+}
+@media (max-width: 425px) {
+  .movies .movie .container .content .list-item {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0;
+  }
+}/*# sourceMappingURL=Movies.css.map */

@@ -1,0 +1,43 @@
+.card-celeb-profile{
+    transition: 0.3s;
+    a{
+        transition: 0.2s;
+        outline: 0;
+        .item{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            padding: 20px;
+            .profile{
+                display: flex;
+                align-items: center;
+                flex: 2;
+                .photo{
+                    padding-right: 30px;
+                    img{
+                        border-radius: 50%;
+                        max-width: 80px;
+                        max-height: 80px;
+                        width: 80px;
+                        object-fit: cover;
+                        
+                    }
+                }
+                .title{
+                    .sub-title{
+                        display: block;
+                        opacity: .6;
+                        font-size: 0.75rem;
+                    }
+                    .name{
+                        font-size: 16px;
+                        font-weight: bold;
+                        display: block;
+                        white-space: nowrap;
+                    }
+                }
+            }
+        }
+    }
+}

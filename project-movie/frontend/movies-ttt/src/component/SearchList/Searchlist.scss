@@ -1,0 +1,147 @@
+.search-list {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.03) !important;
+  .container {
+    margin-bottom: 105px !important;
+    max-width: 1520px;
+    margin-right: auto;
+    margin-left: auto;
+    .content {
+        padding-right: 20px;
+        padding-left: 20px;
+      form {
+        .form-content {
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+          .details {
+            padding: 45px;
+            .title {
+              font-size: 0.875rem;
+              font-weight: bold;
+            }
+            .count {
+              font-size: 0.75rem;
+              opacity: 0.6;
+            }
+          }
+          .keyword {
+            padding: 45px;
+            flex: 1;
+            display: flex;
+            align-items: center;
+            max-width: 500px;
+            width: 100%;
+            .icons {
+              margin-right: 25px;
+              height: 30px;
+              width: 30px;
+            }
+            input {
+              box-shadow: none;
+              border-radius: 1px;
+              border: 1px solid rgba(0, 0, 0, 0.12);
+              color: #111;
+              font-size: 0.875rem;
+              font-weight: 400;
+              line-height: 1.6;
+              height: auto;
+              width: 100%;
+              padding: 12px 24px;
+              margin: 0;
+              background: transparent;
+              -webkit-transition: border-color 0.25s ease-in-out,
+                -webkit-box-shadow 0.5s;
+              transition: border-color 0.25s ease-in-out,
+                -webkit-box-shadow 0.5s;
+              transition: box-shadow 0.5s, border-color 0.25s ease-in-out;
+              transition: box-shadow 0.5s, border-color 0.25s ease-in-out,
+                -webkit-box-shadow 0.5s;
+            }
+          }
+          .fields {
+            padding: 45px;
+            width: 40%;
+            .field-item {
+              display: flex;
+              flex-wrap: wrap;
+              width: 100%;
+              .item {
+                padding: 10px;
+                select {
+                  box-shadow: none;
+                  border-radius: 0;
+                  border: 1px solid rgba(0, 0, 0, 0.12);
+                  color: #111;
+                  font-size: 0.875rem;
+                  font-weight: 400;
+                  line-height: 1.6;
+                  height: auto;
+                  width: 100%;
+                  padding: 12px 24px;
+                  margin: 0;
+                  outline: 0;
+                  background-color: transparent;
+                  -webkit-transition: border-color 0.25s ease-in-out,
+                    -webkit-box-shadow 0.5s;
+                  transition: border-color 0.25s ease-in-out,
+                    -webkit-box-shadow 0.5s;
+                  transition: box-shadow 0.5s, border-color 0.25s ease-in-out;
+                  transition: box-shadow 0.5s, border-color 0.25s ease-in-out,
+                    -webkit-box-shadow 0.5s;
+                }
+                button {
+                  padding: 14px;
+                  font-size: 0.75rem;
+                  text-transform: uppercase;
+                  font-weight: bold;
+                  width: 100%;
+                  outline: 0;
+                  line-height: 1.6;
+                  cursor: pointer;
+                  position: relative;
+                  z-index: 0;
+                  border: 0;
+                  background: #111;
+                  color: #fff;
+                }
+              }
+              .genres{
+                width: 50%;
+              }
+              .button-submit{
+                width: 50%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+@media (max-width: 425px){
+  .search-list{
+    .container{
+      .content{
+        form{
+          .form-content{
+            flex-wrap: wrap;
+            flex-direction: column-reverse;
+            align-items: flex-start;
+            .details{
+              padding: 20px;
+            }
+            .keyword{
+              padding: 20px;
+              width: 100%;
+              
+            }
+          }
+        }
+      }
+    }
+  }
+}

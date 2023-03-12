@@ -1,0 +1,364 @@
+.navbar {
+  position: relative;
+}
+.navbar .container {
+  max-width: 100%;
+  padding: 0 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.navbar .container .box-item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.navbar .container .box-item .box-icon-bar {
+  margin-right: 50px;
+}
+.navbar .container .box-item .box-icon-bar .icons {
+  width: 24px;
+  height: 24px;
+  display: block;
+  color: #fff;
+  max-width: 100%;
+  cursor: pointer;
+}
+.navbar .container .box-item .box-img-logo {
+  margin-right: 50px;
+}
+.navbar .container .box-item .box-menu-link {
+  margin-right: 50px;
+}
+.navbar .container .box-item .box-menu-link .menu-item {
+  padding: 0;
+  margin: 0 -18px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 0.938rem;
+}
+.navbar .container .box-item .box-menu-link .menu-item a {
+  padding: 24px 18px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  transition: all 0.5s ease;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+.navbar .container .box-item .box-menu-link .menu-item a:hover {
+  color: #abb8c3;
+}
+.navbar .container .box-item .box-user {
+  margin-right: 30px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+.navbar .container .box-item .box-user .icons {
+  width: 24px;
+  height: 24px;
+}
+.navbar .container .box-item .box-search {
+  margin-right: 50px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+.navbar .container .box-item .box-search .icons {
+  width: 24px;
+  height: 24px;
+}
+.navbar .container .box-item .box-socialMedia .social .social-item .social-item-link {
+  font-size: 20px;
+  list-style: none;
+  padding: 0;
+  margin: -13.5px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+.navbar .container .box-item .box-socialMedia .social .social-item .social-item-link a {
+  font-size: 1rem;
+  line-height: 1.1rem;
+  color: #fff;
+  padding: 13.5px;
+  font-size: inherit;
+  transition: 0.2s;
+}
+.navbar .container .box-item .box-socialMedia .social .social-item .social-item-link a:hover {
+  font-size: 1.1em;
+}
+
+.fixed-header a {
+  color: #111 !important;
+}
+.fixed-header .icons {
+  color: #111 !important;
+}
+
+.showLogin,
+.hideLogin {
+  display: block;
+  position: fixed;
+  outline: 0;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  box-shadow: none !important;
+  transition: transform 0.5s ease-in-out;
+  background: #fefefe;
+}
+.showLogin .container-login,
+.hideLogin .container-login {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 80px;
+  height: 100%;
+  width: 100%;
+}
+.showLogin .container-login .content,
+.hideLogin .container-login .content {
+  width: 100%;
+}
+.showLogin .container-login .content .inner,
+.hideLogin .container-login .content .inner {
+  width: 100%;
+}
+.showLogin .container-login .content .inner .wrapper,
+.hideLogin .container-login .content .inner .wrapper {
+  width: 100%;
+}
+.showLogin .container-login .content .inner .wrapper .wrapper-content,
+.hideLogin .container-login .content .inner .wrapper .wrapper-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 80px;
+  height: 100%;
+  width: 100%;
+}
+.showLogin .container-login .content .inner .wrapper .wrapper-content .box-close,
+.hideLogin .container-login .content .inner .wrapper .wrapper-content .box-close {
+  text-align: right;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  cursor: pointer;
+  line-height: 1;
+}
+.showLogin .container-login .content .inner .wrapper .wrapper-content .box-close .icons,
+.hideLogin .container-login .content .inner .wrapper .wrapper-content .box-close .icons {
+  width: 28px;
+  height: 28px;
+}
+.showLogin .container-login .content .inner .wrapper .wrapper-content .box-container,
+.hideLogin .container-login .content .inner .wrapper .wrapper-content .box-container {
+  width: 1520px;
+  max-width: 100%;
+  padding: 0 100px;
+  margin: 0 auto;
+}
+.showLogin .container-login .content .inner .wrapper .wrapper-content .box-container .userBox,
+.hideLogin .container-login .content .inner .wrapper .wrapper-content .box-container .userBox {
+  max-width: 550px;
+  margin: 0 auto;
+}
+.showLogin .container-login .content .inner .wrapper .wrapper-content .box-container .userBox .tab-user .tab,
+.hideLogin .container-login .content .inner .wrapper .wrapper-content .box-container .userBox .tab-user .tab {
+  padding: 15px 0;
+  margin: 0 0 35px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 45px;
+}
+.showLogin .container-login .content .inner .wrapper .wrapper-content .box-container .userBox .tab-user .tab .tab-item,
+.hideLogin .container-login .content .inner .wrapper .wrapper-content .box-container .userBox .tab-user .tab .tab-item {
+  transition: 0.3s;
+  font-size: 3rem;
+  line-height: inherit;
+  display: block;
+  padding: 15px 20px;
+  outline: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+.showLogin .container-login .content .inner .wrapper .wrapper-content .box-container .userBox .tab-user .tab .tab-item .hide,
+.hideLogin .container-login .content .inner .wrapper .wrapper-content .box-container .userBox .tab-user .tab .tab-item .hide {
+  opacity: 0.6;
+  transition: all 0.5s ease-in-out;
+}
+.showLogin .container-login .content .inner .wrapper .wrapper-content .box-container .userBox .tab-user .tab .tab-item .hide:hover,
+.hideLogin .container-login .content .inner .wrapper .wrapper-content .box-container .userBox .tab-user .tab .tab-item .hide:hover {
+  opacity: 1;
+}
+
+.showLogin,
+.showSearch {
+  transform: translateY(0, 0);
+}
+
+.hideLogin,
+.hideSearch {
+  transform: translateY(-100%);
+}
+
+.showSearch,
+.hideSearch {
+  display: block;
+  position: fixed;
+  outline: 0;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  box-shadow: none !important;
+  transition: transform 0.5s ease-in-out;
+  background: #fefefe;
+}
+.showSearch .container,
+.hideSearch .container {
+  width: 100%;
+}
+.showSearch .container .content,
+.hideSearch .container .content {
+  width: 100%;
+}
+.showSearch .container .content .inner,
+.hideSearch .container .content .inner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 80px;
+  height: 100%;
+  width: 100%;
+}
+.showSearch .container .content .inner .box-close,
+.hideSearch .container .content .inner .box-close {
+  text-align: right;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  cursor: pointer;
+  line-height: 1;
+}
+.showSearch .container .content .inner .box-close span,
+.hideSearch .container .content .inner .box-close span {
+  font-size: 0.75rem;
+  margin-right: 20px;
+}
+.showSearch .container .content .inner .box-close .icons,
+.hideSearch .container .content .inner .box-close .icons {
+  width: 28px;
+  height: 28px;
+}
+.showSearch .container .content .inner .box-container,
+.hideSearch .container .content .inner .box-container {
+  width: 1520px;
+  max-width: 100%;
+  padding: 0 100px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1025px) {
+  .navbar .container {
+    padding: 0 30px;
+  }
+  .navbar .container .box-item .box-socialMedia {
+    display: none;
+  }
+  .showSearch .container .content .inner, .hideSearch .container .content .inner {
+    padding: 70px 20px;
+  }
+  .showSearch .container .content .inner .box-container .box-search form input, .hideSearch .container .content .inner .box-container .box-search form input {
+    font-size: 4rem;
+  }
+}
+@media (min-width: 426px) and (max-width: 768px) {
+  .navbar .container {
+    padding: 0 30px;
+  }
+  .navbar .container .box-item .box-socialMedia {
+    display: inline-block;
+  }
+  .navbar .container .box-item .box-menu-link {
+    display: none;
+  }
+  .navbar .container .box-item .box-search {
+    margin-right: 30px;
+  }
+  .showSearch .container .content .inner, .hideSearch .container .content .inner {
+    padding: 70px 20px;
+  }
+  .showSearch .container .content .inner .box-container, .hideSearch .container .content .inner .box-container {
+    padding: 30px;
+  }
+  .showSearch .container .content .inner .box-container .box-search form input, .hideSearch .container .content .inner .box-container .box-search form input {
+    font-size: 4rem;
+  }
+  .showLogin .container-login, .hideLogin .container-login {
+    padding: 60px 20px;
+  }
+  .showLogin .container-login .content .inner .wrapper .wrapper-content, .hideLogin .container-login .content .inner .wrapper .wrapper-content {
+    padding: 20px;
+  }
+}
+@media (max-width: 425px) {
+  .navbar .container {
+    max-width: 425px;
+    padding: 0 30px;
+  }
+  .navbar .container .box-item .box-socialMedia {
+    display: none;
+  }
+  .navbar .container .box-item .box-menu-link {
+    display: none;
+  }
+  .navbar .container .box-item .box-search {
+    margin-right: 0;
+  }
+  .showSearch .container .content .inner, .hideSearch .container .content .inner {
+    padding: 70px 10px;
+  }
+  .showSearch .container .content .inner .box-container, .hideSearch .container .content .inner .box-container {
+    padding: 10px;
+  }
+  .showSearch .container .content .inner .box-container .box-search form input, .hideSearch .container .content .inner .box-container .box-search form input {
+    font-size: 2rem;
+  }
+  .showLogin .container-login, .hideLogin .container-login {
+    padding: 40px 20px;
+  }
+  .showLogin .container-login .content .inner .wrapper .wrapper-content, .hideLogin .container-login .content .inner .wrapper .wrapper-content {
+    padding: 10px;
+  }
+  .showLogin .container-login .content .inner .wrapper .wrapper-content .box-container, .hideLogin .container-login .content .inner .wrapper .wrapper-content .box-container {
+    padding: 0px;
+  }
+}/*# sourceMappingURL=Navbar.css.map */

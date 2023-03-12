@@ -1,0 +1,51 @@
+.card-video {
+  width: 100%;
+}
+.card-video .card-video-content {
+  width: 100%;
+}
+.card-video .card-video-content .cover a {
+  background: #111111;
+  color: #ffffff;
+  min-height: 100px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.card-video .card-video-content .cover a iframe {
+  width: 100%;
+  height: auto;
+}
+.card-video .card-video-content .cover a .play-icon {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  z-index: 1;
+}
+.card-video .card-video-content .cover a .play-icon .icon {
+  width: 100%;
+  font-size: 60px;
+}
+.card-video .card-video-content .cover a .play-icon img {
+  opacity: 0.7;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: auto;
+}
+.card-video .card-video-content .cover a .time {
+  font-weight: bold;
+  font-size: 0.875rem;
+  line-height: 1;
+  position: absolute;
+  left: 25px;
+  bottom: 25px;
+}
+.card-video .card-video-content .title {
+  font-size: 0.875rem;
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
+}/*# sourceMappingURL=CardVideo.css.map */

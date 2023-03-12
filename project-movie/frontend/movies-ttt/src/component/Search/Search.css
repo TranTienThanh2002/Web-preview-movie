@@ -1,0 +1,29 @@
+.box-search {
+  margin: 30px 0;
+}
+.box-search form input {
+  font-weight: bold;
+  font-size: 5rem;
+  text-align: center;
+  border-top-width: 0;
+  border-left-width: 0;
+  border-right-width: 0;
+  box-shadow: none;
+  border-radius: 1px;
+  color: #111;
+  line-height: 1.6;
+  height: auto;
+  width: 100%;
+  padding: 12px 24px;
+  margin: 0;
+  background: transparent;
+  transition: box-shadow 0.5s, border-color 0.25s ease-in-out;
+  outline: none;
+}
+.box-search .note {
+  opacity: 0.6;
+  font-size: 0.875rem;
+  text-align: center;
+  margin-top: 30px;
+  font-weight: bold;
+}/*# sourceMappingURL=Search.css.map */

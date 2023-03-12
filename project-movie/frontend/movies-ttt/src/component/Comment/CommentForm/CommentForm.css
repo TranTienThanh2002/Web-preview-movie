@@ -1,0 +1,166 @@
+.comment-form .comment-respond .title {
+  margin-bottom: 55px;
+  font-size: 1.875rem;
+  line-height: 1.3;
+  font-weight: bold;
+  color: #111;
+}
+.comment-form .comment-respond form p {
+  margin: 0 0 33px;
+  line-height: 1.8;
+}
+.comment-form .comment-respond form .gt-item {
+  padding-bottom: 25px;
+}
+.comment-form .comment-respond form .gt-item .gt-comment-form-message {
+  margin-bottom: 7px;
+  font-size: 0.875rem;
+  line-height: 1.6;
+  color: #111;
+}
+.comment-form .comment-respond form .gt-item .gt-input-effect {
+  position: relative;
+  z-index: 0;
+}
+.comment-form .comment-respond form .gt-item .gt-input-effect textarea {
+  background: #fff;
+  transition: 0.4s;
+  overflow: auto;
+  min-height: 50px;
+  max-width: 100%;
+  box-shadow: none;
+  border-radius: 1px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  color: #111;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.6;
+  height: auto;
+  width: 100%;
+  padding: 12px 24px;
+  margin: 0;
+  background: 0 0;
+  transition: box-shadow 0.5s, border-color 0.25s ease-in-out;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+.comment-form .comment-respond form .gt-item .gt-input-effect textarea:focus {
+  border-color: rgba(0, 0, 0, 0.3);
+  box-shadow: none;
+  outline: 0;
+  border: 1px solid #8a8a8a;
+}
+.comment-form .comment-respond form .gt-item-row {
+  margin-right: -20px;
+  margin-left: -20px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.comment-form .comment-respond form .gt-item-row .gt-item {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 25px;
+  flex: 1;
+}
+.comment-form .comment-respond form .gt-item-row .gt-item label {
+  margin-bottom: 7px;
+  color: #111;
+  font-size: 0.875rem;
+  line-height: 1.6;
+}
+.comment-form .comment-respond form .gt-item-row .gt-item .gt-input-effect {
+  position: relative;
+  z-index: 0;
+}
+.comment-form .comment-respond form .gt-item-row .gt-item .gt-input-effect input {
+  background: #fff;
+  transition: 0.4s;
+  overflow: auto;
+  min-height: 50px;
+  max-width: 100%;
+  box-shadow: none;
+  border-radius: 1px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  color: #111;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.6;
+  height: auto;
+  width: 100%;
+  padding: 12px 24px;
+  margin: 0;
+  background: 0 0;
+  transition: box-shadow 0.5s, border-color 0.25s ease-in-out;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+.comment-form .comment-respond form .gt-item-row .gt-item .gt-input-effect input:focus {
+  border-color: rgba(0, 0, 0, 0.3);
+  box-shadow: none;
+  outline: 0;
+  border: 1px solid #8a8a8a;
+}
+.comment-form .comment-respond form .gt-item {
+  padding-bottom: 25px;
+  width: 100%;
+}
+.comment-form .comment-respond form .gt-item label {
+  margin-bottom: 7px;
+  color: #111;
+  font-size: 0.875rem;
+  line-height: 1.6;
+}
+.comment-form .comment-respond form .gt-item .comment-rating-none {
+  width: 100%;
+  display: inline-block;
+}
+.comment-form .comment-respond form .gt-item .gt-input-effect {
+  position: relative;
+  z-index: 0;
+}
+.comment-form .comment-respond form .gt-item .gt-input-effect input {
+  background: #fff;
+  transition: 0.4s;
+  overflow: auto;
+  min-height: 50px;
+  max-width: 100%;
+  box-shadow: none;
+  border-radius: 1px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  color: #111;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.6;
+  height: auto;
+  width: 100%;
+  padding: 12px 24px;
+  margin: 0;
+  background: 0 0;
+  transition: box-shadow 0.5s, border-color 0.25s ease-in-out;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+.comment-form .comment-respond form .gt-item .gt-input-effect input:focus {
+  border-color: rgba(0, 0, 0, 0.3);
+  box-shadow: none;
+  outline: 0;
+  border: 1px solid #8a8a8a;
+}
+.comment-form .comment-respond form .gt-style-4 {
+  padding: 14px;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  line-height: 1.6;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  transition: 0.2s;
+  border: 0;
+  background: #111;
+  color: #fff;
+}/*# sourceMappingURL=CommentForm.css.map */

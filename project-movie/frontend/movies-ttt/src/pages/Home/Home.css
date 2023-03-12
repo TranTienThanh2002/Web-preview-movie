@@ -1,0 +1,40 @@
+.home {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.home .home-wrapper {
+  width: 100%;
+}
+.home .home-wrapper .container {
+  width: 100%;
+}
+.home .home-wrapper .container .content {
+  width: 100%;
+}
+.home .home-wrapper .container .content article {
+  width: 100%;
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+  .container .inner h2.title {
+    font-size: 2rem !important;
+  }
+}
+@media (max-width: 425px) {
+  .container .inner h2.title {
+    font-size: 1.5rem !important;
+  }
+  .control-btn {
+    display: none !important;
+  }
+  .home .container .inner .content .row-item-list .item .item-content .slick-dots {
+    margin-top: 0 !important;
+  }
+  .movie-details .container .content .box-content .box-content-full .box-module-items .module-item .module-content .slick-dots {
+    margin-top: 0 !important;
+  }
+}/*# sourceMappingURL=Home.css.map */

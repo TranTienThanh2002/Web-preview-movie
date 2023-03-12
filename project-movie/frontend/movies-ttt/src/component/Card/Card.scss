@@ -1,0 +1,41 @@
+.box-item-content{
+    .box-item {
+        text-align: center;
+        width: 90% !important;
+        margin-right: auto;
+        margin-left: auto;
+        .poster {
+          position: relative;
+          margin-bottom: 30px;
+          a {
+            img {
+              width: 100% !important ;
+              height: 450px;
+              object-fit: cover;
+            }
+          }
+        }
+        .details {
+          .title {
+            font-size: 1.375rem;
+            font-weight: 600;
+            margin-bottom: 2.5px;
+          }
+          .genres {
+            display: flex;
+            flex-wrap: wrap;
+            font-size: 0.875rem;
+            opacity: 0.6;
+            justify-content: center;
+            .genres-item {
+              a {
+                &:not(:last-child)::after {
+                  content: ",";
+                  margin-right: 4px;
+                }
+              }
+            }
+          }
+        }
+      }
+}

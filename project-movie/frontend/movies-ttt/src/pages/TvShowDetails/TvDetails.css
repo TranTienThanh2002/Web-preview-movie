@@ -1,0 +1,713 @@
+.tv-details {
+  position: relative;
+  width: 100%;
+}
+.tv-details .container .css-1lauo1g-MuiRating-root {
+  color: #111;
+}
+.tv-details .container .content .title-overview .cover {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  -ms-background-size: cover;
+  background-size: cover;
+  padding: 225px 0 70px;
+  background-color: #111;
+  position: relative;
+  z-index: 1;
+}
+.tv-details .container .content .title-overview .cover::before {
+  background: rgba(0, 0, 0, 0.65);
+  background-color: rgba(0, 0, 0, 0.65);
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.tv-details .container .content .title-overview .cover .cover-content {
+  width: 1520px;
+  max-width: 100%;
+  padding: 0 100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.tv-details .container .content .title-overview .cover .cover-content .poster {
+  margin-bottom: -190px;
+  max-width: 370px;
+}
+.tv-details .container .content .title-overview .cover .cover-content .poster img {
+  height: 545px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.tv-details .container .content .title-overview .cover .cover-content .cover-details {
+  flex: 1;
+  color: #fff;
+  padding: 45px 0 0 80px;
+}
+.tv-details .container .content .title-overview .cover .cover-content .cover-details h6 {
+  margin-bottom: 17px;
+  font-size: 1.5rem;
+  line-height: 1.3;
+  font-weight: bold;
+}
+.tv-details .container .content .title-overview .cover .cover-content .cover-details h1 {
+  font-size: 4.375rem;
+  line-height: 1.1;
+  font-weight: bold;
+  margin-bottom: 22px;
+}
+.tv-details .container .content .title-overview .cover .cover-content .cover-details .mini-summary {
+  font-size: 0.938rem;
+  font-weight: 300;
+  margin-top: 20px;
+}
+.tv-details .container .content .title-overview .cover .cover-content .cover-details .mini-summary p {
+  line-height: 1.8;
+}
+.tv-details .container .content .title-overview .cover .cover-content .cover-details .items {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 40px -10px -10px;
+  color: #fff;
+}
+.tv-details .container .content .title-overview .cover .cover-content .cover-details .items .circular-items {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: -7px;
+  position: relative;
+  padding: 10px;
+}
+.tv-details .container .content .title-overview .cover .cover-content .cover-details .items .circular-items::after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 38px;
+  opacity: 0.6;
+  background: #fff;
+  margin-right: 30px;
+  margin-left: 20px;
+}
+.tv-details .container .content .title-overview .cover .cover-content .cover-details .items .circular-items .watch-trailer {
+  padding: 7px;
+}
+.tv-details .container .content .title-overview .cover .cover-content .cover-details .items .circular-items .watch-trailer a {
+  font-size: 0.75rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+}
+.tv-details .container .content .title-overview .cover .cover-content .cover-details .items .circular-items .watch-trailer a .icons {
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 50%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.tv-details .container .content .title-overview .cover .cover-content .cover-details .items .circular-items .watch-trailer a .icons .icon {
+  font-size: 50px;
+}
+.tv-details .container .content .title-overview .cover .cover-content .cover-details .items .circular-items .watch-trailer a span {
+  color: #fff;
+}
+.tv-details .container .content .title-overview .cover .cover-content .cover-details .items .dotted-items {
+  opacity: 0.7;
+  font-weight: bold;
+  font-size: 0.813rem;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+.tv-details .container .content .title-overview .cover .cover-content .cover-details .items .dotted-items .item {
+  display: flex;
+  align-items: center;
+}
+.tv-details .container .content .title-overview .cover .cover-content .cover-details .items .dotted-items .item:not(:last-child)::after {
+  width: 3px;
+  height: 3px;
+  background: #fff;
+  border-radius: 50%;
+  display: block;
+  content: "";
+  margin: 0 12px;
+}
+.tv-details .container .content .title-overview .cover .cover-content .cover-details .items .dotted-items .genres a {
+  color: #fff;
+}
+.tv-details .container .content .title-overview .cover .cover-content .cover-details .items .dotted-items .genres a:not(:last-child):after {
+  content: ",";
+  margin-right: 4px;
+}
+.tv-details .container .content .title-overview .box-details {
+  width: 1520px;
+  max-width: 100%;
+  padding: 0 100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.tv-details .container .content .title-overview .box-details .details-content {
+  padding: 45px 0 30px 450px;
+  margin-bottom: 110px;
+  width: 100%;
+}
+.tv-details .container .content .title-overview .box-details .details-content .details-inner {
+  margin: -30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.tv-details .container .content .title-overview .box-details .details-content .details-inner .inner-item {
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  margin: -10px -30px;
+}
+.tv-details .container .content .title-overview .box-details .details-content .details-inner .inner-item .user:not(:last-child) {
+  padding: 10px 30px;
+  border-right: 1px solid rgba(0, 0, 0, 0.12);
+}
+.tv-details .container .content .title-overview .box-details .details-content .details-inner .inner-item .user-ratings {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.tv-details .container .content .title-overview .box-details .details-content .details-inner .inner-item .user-ratings .star {
+  height: 16px;
+  line-height: 16px;
+}
+.tv-details .container .content .title-overview .box-details .details-content .details-inner .inner-item .user-ratings .results {
+  font-size: 0.688rem;
+  opacity: 0.6;
+  margin-top: 5px;
+}
+.tv-details .container .content .title-overview .box-details .details-content .details-inner .inner-item .user-ratings .results span:not(:first-child)::before {
+  content: "/";
+  margin: 0 3px;
+}
+.tv-details .container .content .title-overview .box-details .details-content .details-inner .inner-item .user-imdb-rating {
+  font-size: 0.875rem;
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+.tv-details .container .content .title-overview .box-details .details-content .details-inner .inner-item .user-imdb-rating .point {
+  font-size: 2.5rem;
+  line-height: 33px;
+  font-weight: bold;
+}
+.tv-details .container .content .title-overview .box-details .details-content .details-inner .inner-item .user-imdb-rating span {
+  margin-left: 7px;
+  display: block;
+  font-weight: bold;
+}
+.tv-details .container .content .title-overview .box-details .details-content .details-inner .inner-item .user-status {
+  padding: 10px 30px;
+}
+.tv-details .container .content .title-overview .box-details .details-content .details-inner .inner-item .user-status .status-title {
+  opacity: 0.6;
+  font-size: 0.75rem;
+}
+.tv-details .container .content .title-overview .box-details .details-content .details-inner .inner-item .user-status .status-item {
+  margin-top: 2px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+.tv-details .container .content .title-overview .box-details .details-content .details-inner .inner-item .user-status .status-item a {
+  font-size: 0.875rem;
+  font-weight: bold;
+}
+.tv-details .container .content .title-overview .box-details .details-content .details-inner .buttons {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: -5px;
+  padding: 30px;
+}
+.tv-details .container .content .title-overview .box-details .details-content .details-inner .buttons div.btn {
+  padding: 5px;
+  position: relative;
+}
+.tv-details .container .content .title-overview .box-details .details-content .details-inner .buttons .btn-add-wishlist a {
+  background: #111;
+  border-color: #111;
+  color: #fff;
+  padding: 13.5px 20px;
+  display: flex;
+  align-items: center;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+  font-size: 0.875rem;
+  font-weight: bold;
+}
+.tv-details .container .content .title-overview .box-details .details-content .details-inner .buttons .btn-add-wishlist a .icon {
+  width: 19px;
+  height: 19px;
+  font-size: 19px;
+}
+.tv-details .container .content .title-overview .box-details .details-content .details-inner .buttons .btn-favorites a {
+  font-size: 0.875rem;
+  font-weight: 500;
+  background: #ffffff;
+  color: #111;
+  padding: 13.5px 20px;
+  display: flex;
+  align-items: center;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+}
+.tv-details .container .content .title-overview .box-details .details-content .details-inner .buttons .btn-favorites a .icon {
+  width: 19px;
+  height: 19px;
+  font-size: 19px;
+}
+.tv-details .container .content .box-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 1520px;
+  max-width: 100%;
+  padding: 0 100px;
+  margin: 0 auto;
+}
+.tv-details .container .content .box-content .box-content-full {
+  width: 100%;
+}
+.tv-details .container .content .box-content .box-content-full .box-module-items {
+  margin-bottom: 110px;
+  width: 100%;
+}
+.tv-details .container .content .box-content .box-content-full .box-module-items .module-item .module-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  padding-bottom: 45px;
+  margin: 0 0 60px;
+}
+.tv-details .container .content .box-content .box-content-full .box-module-items .module-item .module-title .heading h5 {
+  font-size: 1.875rem;
+  line-height: 1.3;
+  font-weight: bold;
+}
+.tv-details .container .content .box-content .box-content-full .box-module-items .module-item .module-title .button-view-all a {
+  font-size: 0.875rem;
+  font-weight: bold;
+  background: #ffffff;
+  color: #111;
+  padding: 13.5px 20px;
+  display: flex;
+  align-items: center;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+}
+.tv-details .container .content .box-content .box-content-full .box-module-items .module-item .module-title .button-view-all a .icon {
+  margin-left: 13px;
+  text-align: right;
+  height: 19px;
+  width: 19px;
+}
+.tv-details .container .content .box-content .box-content-full .box-module-items .module-item .module-content {
+  width: 100%;
+}
+.tv-details .container .content .box-content .box-content-full .box-module-items .module-item .module-content .content-photo img {
+  width: 99% !important;
+  height: 440px;
+}
+.tv-details .container .content .box-content .box-content-full .box-module-items .module-item .module-content .content-slider {
+  width: 100%;
+}
+.tv-details .container .content .box-content .box-content-full .box-module-items .module-item .module-content .slick-track {
+  display: -webkit-inline-box;
+}
+.tv-details .container .content .box-content .box-content-full .box-module-items .module-item .module-content .control-btn .next {
+  right: 0;
+}
+.tv-details .container .content .box-content .box-content-full .box-module-items .module-item .module-content .control-btn .prev {
+  left: 0;
+}
+.tv-details .container .content .box-content .box-content-full .box-module-items .module-item .module-content .control-btn button {
+  position: absolute;
+  background: none;
+  border: none;
+  bottom: 10px;
+  z-index: 10;
+}
+.tv-details .container .content .box-content .box-content-full .box-module-items .module-item .module-content .control-btn button .icons {
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+  cursor: pointer;
+  outline: none;
+  transition: 0.3s;
+}
+.tv-details .container .content .box-content .box-content-full .box-module-items .module-item .module-content .slick-dots {
+  display: inline-block !important;
+  margin: 37px auto 0 !important;
+  padding: 37px 0 !important;
+  margin-top: 60px !important;
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+  position: relative !important;
+}
+.tv-details .container .content .box-content .box-content-full .box-module-items .module-item .module-content .content-crew {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(3, 1fr);
+}
+.tv-details .container .content .box-content .box-content-full .box-module-items .module-item .social-item .social-link {
+  padding: 0;
+  margin: -3px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+.tv-details .container .content .box-content .box-content-full .box-module-items .module-item .social-item .social-link div.facebook a {
+  color: #3b5998;
+  border-color: #3b5998;
+}
+.tv-details .container .content .box-content .box-content-full .box-module-items .module-item .social-item .social-link div.facebook a:hover {
+  color: #fff;
+  background: #3b5998;
+}
+.tv-details .container .content .box-content .box-content-full .box-module-items .module-item .social-item .social-link div.twitter a {
+  color: #1da1f2;
+  border-color: #1da1f2;
+}
+.tv-details .container .content .box-content .box-content-full .box-module-items .module-item .social-item .social-link div.twitter a:hover {
+  color: #fff;
+  background: #1da1f2;
+}
+.tv-details .container .content .box-content .box-content-full .box-module-items .module-item .social-item .social-link div.linked a {
+  color: #0077b5;
+  border-color: #0077b5;
+}
+.tv-details .container .content .box-content .box-content-full .box-module-items .module-item .social-item .social-link div.linked a:hover {
+  color: #fff;
+  background: #0077b5;
+}
+.tv-details .container .content .box-content .box-content-full .box-module-items .module-item .social-item .social-link div.whatsapp a {
+  color: #075e54;
+  border-color: #075e54;
+}
+.tv-details .container .content .box-content .box-content-full .box-module-items .module-item .social-item .social-link div.whatsapp a:hover {
+  color: #fff;
+  background: #075e54;
+}
+.tv-details .container .content .box-content .box-content-full .box-module-items .module-item .social-item .social-link div.pinterest a {
+  color: #bd081c;
+  border-color: #bd081c;
+}
+.tv-details .container .content .box-content .box-content-full .box-module-items .module-item .social-item .social-link div.pinterest a:hover {
+  color: #fff;
+  background: #bd081c;
+}
+.tv-details .container .content .box-content .box-content-full .box-module-items .module-item .social-item .social-link div.email a {
+  color: #111;
+  border-color: #111;
+}
+.tv-details .container .content .box-content .box-content-full .box-module-items .module-item .social-item .social-link div.email a:hover {
+  color: #fff;
+  background: #111;
+}
+.tv-details .container .content .box-content .box-content-full .box-module-items .module-item .social-item .social-link div {
+  padding: 3px;
+}
+.tv-details .container .content .box-content .box-content-full .box-module-items .module-item .social-item .social-link div a {
+  min-height: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  background: 0 0;
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 11px 35px;
+}
+.tv-details .container .content .box-content .box-content-full .box-module-items .module-item .social-item .social-link div a .icon {
+  font-size: 16px;
+  margin-right: 30px;
+}
+.tv-details .container .content .box-content .box-content-full .box-module-items .box-episodes {
+  padding-bottom: 70px;
+  margin-bottom: 70px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  display: flex;
+  align-items: flex-start;
+}
+.tv-details .container .content .box-content .box-content-full .box-module-items .box-episodes .heading {
+  margin-bottom: 0;
+  margin-right: 30px;
+  max-width: 300px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 0 60px;
+}
+.tv-details .container .content .box-content .box-content-full .box-module-items .box-episodes .heading h5 {
+  font-size: 1.875rem;
+  line-height: 1.3;
+  font-weight: bold;
+}
+.tv-details .container .content .box-content .box-content-full .box-module-items .box-episodes .episodes-content {
+  flex: 1;
+}
+.tv-details .container .content .box-content .box-content-full .box-module-items .box-episodes .episodes-content .items {
+  display: flex;
+  flex-wrap: wrap;
+}
+.tv-details .container .content .box-content .box-content-full .box-module-items .box-episodes .episodes-content .items .item {
+  width: 100%;
+  flex: 0 0 50%;
+}
+.tv-details .container .content .box-content .box-content-full .box-module-items .box-episodes .episodes-content .items .item h6 {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #111;
+}
+.tv-details .container .content .box-content .box-content-full .box-module-items .box-episodes .episodes-content .items .item .seasons-list {
+  list-style: none;
+  padding: 0;
+  margin: -2.5px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 0.875rem;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 2.5px;
+}
+.tv-details .container .content .box-content .box-content-full .box-module-items .box-episodes .episodes-content .items .item .seasons-list a {
+  padding: 5px 10px;
+  display: block;
+  border: 1px solid #dddddd;
+  transition: all 0.5s;
+}
+.tv-details .container .content .box-content .box-content-full .box-module-items .box-episodes .episodes-content .items .item .seasons-list a:hover, .tv-details .container .content .box-content .box-content-full .box-module-items .box-episodes .episodes-content .items .item .seasons-list a:focus, .tv-details .container .content .box-content .box-content-full .box-module-items .box-episodes .episodes-content .items .item .seasons-list a:active {
+  background: #111;
+  color: #fff;
+}
+
+@media (min-width: 769px) and (max-width: 1025px) {
+  .tv-details .container .content .title-overview .cover {
+    padding: 150px 0 70px;
+  }
+  .tv-details .container .content .title-overview .cover .cover-content {
+    padding: 0 30px;
+  }
+  .tv-details .container .content .title-overview .cover .cover-content .poster {
+    margin-bottom: 0;
+    max-width: 300px;
+  }
+  .tv-details .container .content .title-overview .cover .cover-content .poster img {
+    height: auto;
+  }
+  .tv-details .container .content .title-overview .cover .cover-content .cover-details h1 {
+    font-size: 3rem;
+  }
+  .tv-details .container .content .title-overview .cover .cover-content .cover-details .items {
+    margin-top: 10px;
+  }
+  .tv-details .container .content .title-overview .cover .cover-content .cover-details .mini-summary p {
+    margin: 0;
+  }
+  .tv-details .container .content .title-overview .box-details {
+    padding: 0 30px;
+  }
+  .tv-details .container .content .title-overview .box-details .details-content {
+    padding: 30px;
+    margin-bottom: 50px;
+  }
+  .tv-details .container .content .box-content {
+    padding: 0 30px;
+  }
+}
+@media (min-width: 426px) and (max-width: 768px) {
+  .tv-details .container .content .title-overview .cover {
+    padding: 150px 0 70px;
+  }
+  .tv-details .container .content .title-overview .cover .cover-content {
+    padding: 0 30px;
+    flex-direction: column;
+  }
+  .tv-details .container .content .title-overview .cover .cover-content .poster {
+    margin-bottom: 0;
+    max-width: 768px;
+  }
+  .tv-details .container .content .title-overview .cover .cover-content .poster img {
+    height: auto;
+  }
+  .tv-details .container .content .title-overview .cover .cover-content .cover-details {
+    padding: 45px 0;
+  }
+  .tv-details .container .content .title-overview .cover .cover-content .cover-details h1 {
+    font-size: 3rem;
+  }
+  .tv-details .container .content .title-overview .cover .cover-content .cover-details .items {
+    margin-top: 10px;
+  }
+  .tv-details .container .content .title-overview .cover .cover-content .cover-details .mini-summary p {
+    margin: 0;
+  }
+  .tv-details .container .content .title-overview .box-details {
+    padding: 0 30px;
+  }
+  .tv-details .container .content .title-overview .box-details .details-content {
+    padding: 30px 0;
+    margin-bottom: 50px;
+  }
+  .tv-details .container .content .title-overview .box-details .details-content .details-inner .inner-item {
+    margin: 0;
+    padding: 30px 0;
+  }
+  .tv-details .container .content .title-overview .box-details .details-content .details-inner .buttons {
+    margin: 0;
+  }
+  .tv-details .container .content .box-content {
+    padding: 0 30px;
+  }
+  .tv-details .container .content .box-content .box-content-full .box-module-items .box-episodes {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .tv-details .container .content .box-content .box-content-full .box-module-items .box-episodes .heading {
+    margin-bottom: 30px;
+  }
+  .tv-details .container .content .box-content .box-content-full .box-module-items .box-episodes .episodes-content {
+    width: 100%;
+  }
+  .tv-details .container .content .box-content .box-content-full .box-module-items .box-episodes .episodes-content .items {
+    width: 100%;
+  }
+  .tv-details .container .content .box-content .box-content-full .box-module-items .module-item .module-content .content-crew {
+    gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 425px) {
+  .tv-details .container .content .title-overview .cover {
+    padding: 150px 0 70px;
+  }
+  .tv-details .container .content .title-overview .cover .cover-content {
+    padding: 0 30px;
+    flex-direction: column;
+  }
+  .tv-details .container .content .title-overview .cover .cover-content .poster {
+    margin-bottom: 0;
+    max-width: 768px;
+  }
+  .tv-details .container .content .title-overview .cover .cover-content .poster img {
+    height: auto;
+  }
+  .tv-details .container .content .title-overview .cover .cover-content .cover-details {
+    padding: 45px 0;
+  }
+  .tv-details .container .content .title-overview .cover .cover-content .cover-details h1 {
+    font-size: 3rem;
+  }
+  .tv-details .container .content .title-overview .cover .cover-content .cover-details .items {
+    margin-top: 10px;
+  }
+  .tv-details .container .content .title-overview .cover .cover-content .cover-details .items .circular-items .watch-trailer {
+    padding: 0;
+  }
+  .tv-details .container .content .title-overview .cover .cover-content .cover-details .items .circular-items::after {
+    width: 0;
+  }
+  .tv-details .container .content .title-overview .cover .cover-content .cover-details .mini-summary p {
+    margin: 0;
+  }
+  .tv-details .container .content .title-overview .box-details {
+    padding: 0 30px;
+  }
+  .tv-details .container .content .title-overview .box-details .details-content {
+    padding: 30px 0;
+    margin-bottom: 50px;
+  }
+  .tv-details .container .content .title-overview .box-details .details-content .details-inner .inner-item {
+    margin: 0;
+    padding: 30px 0;
+  }
+  .tv-details .container .content .title-overview .box-details .details-content .details-inner .buttons {
+    margin: 0;
+    width: 100%;
+  }
+  .tv-details .container .content .title-overview .box-details .details-content .details-inner .buttons .btn-add-wishlist {
+    padding: 0 5px 0 0 !important;
+    width: 50%;
+  }
+  .tv-details .container .content .title-overview .box-details .details-content .details-inner .buttons .btn-add-wishlist a .icon {
+    width: 100%;
+  }
+  .tv-details .container .content .title-overview .box-details .details-content .details-inner .buttons .btn-favorites {
+    padding: 0 0 0 5px !important;
+    width: 50%;
+  }
+  .tv-details .container .content .title-overview .box-details .details-content .details-inner .buttons .btn-favorites a .icon {
+    width: 100%;
+  }
+  .tv-details .container .content .box-content {
+    padding: 0 30px;
+  }
+  .tv-details .container .content .box-content .box-content-full .box-module-items .module-item .module-title {
+    flex-wrap: wrap;
+  }
+  .tv-details .container .content .box-content .box-content-full .box-module-items .module-item .module-title .button-view-all {
+    margin-top: 25px;
+  }
+  .tv-details .container .content .box-content .box-content-full .box-module-items .box-episodes {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .tv-details .container .content .box-content .box-content-full .box-module-items .box-episodes .heading {
+    margin-bottom: 30px;
+  }
+  .tv-details .container .content .box-content .box-content-full .box-module-items .box-episodes .episodes-content {
+    width: 100%;
+  }
+  .tv-details .container .content .box-content .box-content-full .box-module-items .box-episodes .episodes-content .items {
+    width: 100%;
+    flex-direction: column;
+  }
+  .tv-details .container .content .box-content .box-content-full .box-module-items .box-episodes .episodes-content .items .item {
+    margin-bottom: 30px;
+  }
+  .tv-details .container .content .box-content .box-content-full .box-module-items .module-item .module-content .content-crew {
+    gap: 30px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}/*# sourceMappingURL=TvDetails.css.map */

@@ -1,0 +1,177 @@
+.comment-form {
+  .comment-respond {
+    .title {
+      margin-bottom: 55px;
+      font-size: 1.875rem;
+      line-height: 1.3;
+      font-weight: bold;
+      color: #111;
+    }
+    form {
+      p {
+        margin: 0 0 33px;
+        line-height: 1.8;
+      }
+      .gt-item {
+        padding-bottom: 25px;
+        .gt-comment-form-message {
+          margin-bottom: 7px;
+          font-size: 0.875rem;
+          line-height: 1.6;
+          color: #111;
+        }
+        .gt-input-effect {
+          position: relative;
+          z-index: 0;
+          textarea {
+            background: #fff;
+            transition: 0.4s;
+            overflow: auto;
+            min-height: 50px;
+            max-width: 100%;
+            box-shadow: none;
+            border-radius: 1px;
+            border: 1px solid rgba(0, 0, 0, 0.12);
+            color: #111;
+            font-size: 0.875rem;
+            font-weight: 400;
+            line-height: 1.6;
+            height: auto;
+            width: 100%;
+            padding: 12px 24px;
+            margin: 0;
+            background: 0 0;
+            -webkit-transition: border-color 0.25s ease-in-out,
+              -webkit-box-shadow 0.5s;
+            transition: box-shadow 0.5s, border-color 0.25s ease-in-out,
+              -webkit-box-shadow 0.5s;
+            appearance: none;
+            &:focus {
+              border-color: rgba(0, 0, 0, 0.3);
+              box-shadow: none;
+              outline: 0;
+              border: 1px solid #8a8a8a;
+            }
+          }
+        }
+      }
+      .gt-item-row {
+        margin-right: -20px;
+        margin-left: -20px;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        .gt-item {
+          padding-left: 20px;
+          padding-right: 20px;
+          padding-bottom: 25px;
+          flex: 1;
+          label {
+            margin-bottom: 7px;
+            color: #111;
+            font-size: 0.875rem;
+            line-height: 1.6;
+          }
+          .gt-input-effect {
+            position: relative;
+            z-index: 0;
+            input {
+              background: #fff;
+              transition: 0.4s;
+              overflow: auto;
+              min-height: 50px;
+              max-width: 100%;
+              box-shadow: none;
+              border-radius: 1px;
+              border: 1px solid rgba(0, 0, 0, 0.12);
+              color: #111;
+              font-size: 0.875rem;
+              font-weight: 400;
+              line-height: 1.6;
+              height: auto;
+              width: 100%;
+              padding: 12px 24px;
+              margin: 0;
+              background: 0 0;
+              -webkit-transition: border-color 0.25s ease-in-out,
+                -webkit-box-shadow 0.5s;
+              transition: box-shadow 0.5s, border-color 0.25s ease-in-out,
+                -webkit-box-shadow 0.5s;
+              appearance: none;
+              &:focus {
+                border-color: rgba(0, 0, 0, 0.3);
+                box-shadow: none;
+                outline: 0;
+                border: 1px solid #8a8a8a;
+              }
+            }
+          }
+        }
+      }
+      .gt-item {
+        padding-bottom: 25px;
+        width: 100%;
+        label {
+          margin-bottom: 7px;
+          color: #111;
+          font-size: 0.875rem;
+          line-height: 1.6;
+          
+        }
+        .comment-rating-none{
+            width: 100%;
+            display: inline-block;
+        }
+        .gt-input-effect {
+          position: relative;
+          z-index: 0;
+          input {
+            background: #fff;
+            transition: 0.4s;
+            overflow: auto;
+            min-height: 50px;
+            max-width: 100%;
+            box-shadow: none;
+            border-radius: 1px;
+            border: 1px solid rgba(0, 0, 0, 0.12);
+            color: #111;
+            font-size: 0.875rem;
+            font-weight: 400;
+            line-height: 1.6;
+            height: auto;
+            width: 100%;
+            padding: 12px 24px;
+            margin: 0;
+            background: 0 0;
+            -webkit-transition: border-color 0.25s ease-in-out,
+              -webkit-box-shadow 0.5s;
+            transition: box-shadow 0.5s, border-color 0.25s ease-in-out,
+              -webkit-box-shadow 0.5s;
+            appearance: none;
+            &:focus {
+              border-color: rgba(0, 0, 0, 0.3);
+              box-shadow: none;
+              outline: 0;
+              border: 1px solid #8a8a8a;
+            }
+          }
+        }
+      }
+      .gt-style-4 {
+        padding: 14px;
+        font-size: 0.75rem;
+        text-transform: uppercase;
+        font-weight: 500;
+        line-height: 1.6;
+        cursor: pointer;
+        position: relative;
+        z-index: 0;
+        transition: 0.2s;
+        border: 0;
+        background: #111;
+        color: #fff;
+      }
+    }
+    
+  }
+}

@@ -1,0 +1,158 @@
+.showNavbar,
+.hideNavbar {
+  display: block;
+  position: fixed;
+  outline: 0;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  box-shadow: none !important;
+  transition: transform 0.5s ease-in-out;
+  background: #fefefe;
+}
+.showNavbar .box-container,
+.hideNavbar .box-container {
+  background: #ffffff;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+}
+.showNavbar .box-container .container,
+.hideNavbar .box-container .container {
+  display: flex;
+  align-items: stretch;
+  height: 100%;
+}
+.showNavbar .box-container .container .box-content,
+.hideNavbar .box-container .container .box-content {
+  max-width: 950px;
+  width: 100%;
+  padding: 100px;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  align-items: flex-start;
+}
+.showNavbar .box-container .container .box-content .content-mask,
+.hideNavbar .box-container .container .box-content .content-mask {
+  direction: inherit;
+  position: absolute;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: auto !important;
+  height: auto !important;
+  z-index: 0;
+}
+.showNavbar .box-container .container .box-content .content-mask .content-offset,
+.hideNavbar .box-container .container .box-content .content-mask .content-offset {
+  direction: inherit !important;
+  box-sizing: inherit !important;
+  resize: none !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  padding: 0;
+  margin: 0;
+}
+.showNavbar .box-container .container .box-content .content-mask .content-offset .content-offset-wrapper,
+.hideNavbar .box-container .container .box-content .content-mask .content-offset .content-offset-wrapper {
+  direction: inherit;
+  box-sizing: border-box !important;
+  position: relative;
+  display: block;
+  height: 100%;
+  width: auto;
+  visibility: visible;
+  max-width: 100%;
+  max-height: 100%;
+}
+.showNavbar .box-container .container .box-content .content-mask .content-offset .content-offset-wrapper .content,
+.hideNavbar .box-container .container .box-content .content-mask .content-offset .content-offset-wrapper .content {
+  padding: 100px;
+}
+.showNavbar .box-container .container .box-content .content-mask .content-offset .content-offset-wrapper .content .content-top .box-close .icons,
+.hideNavbar .box-container .container .box-content .content-mask .content-offset .content-offset-wrapper .content .content-top .box-close .icons {
+  margin-bottom: 80px;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+.showNavbar .box-container .container .box-content .content-mask .content-offset .content-offset-wrapper .content .content-top .box-menu .box-menu-content .box-menu-content-item a,
+.hideNavbar .box-container .container .box-content .content-mask .content-offset .content-offset-wrapper .content .content-top .box-menu .box-menu-content .box-menu-content-item a {
+  font-size: 3.75rem;
+  line-height: 1;
+  font-weight: 600;
+  counter-increment: off-canvas-menu-counter;
+  display: flex;
+  align-items: flex-start;
+  color: #dddddd;
+  padding: 20px 0;
+}
+.showNavbar .box-container .container .box-content .content-mask .content-offset .content-offset-wrapper .content .content-top .box-menu .box-menu-content .box-menu-content-item a:visited,
+.hideNavbar .box-container .container .box-content .content-mask .content-offset .content-offset-wrapper .content .content-top .box-menu .box-menu-content .box-menu-content-item a:visited {
+  opacity: 0.85;
+  overflow: hidden;
+  color: #dddddd;
+  padding: 0;
+  background: transparent;
+  outline: 0;
+  display: flex;
+  align-items: center;
+  position: relative;
+  white-space: nowrap;
+}
+.showNavbar .box-container .container .box-content .content-mask .content-offset .content-offset-wrapper .content .content-top .box-menu .box-menu-content .box-menu-content-item a:focus, .showNavbar .box-container .container .box-content .content-mask .content-offset .content-offset-wrapper .content .content-top .box-menu .box-menu-content .box-menu-content-item a:hover,
+.hideNavbar .box-container .container .box-content .content-mask .content-offset .content-offset-wrapper .content .content-top .box-menu .box-menu-content .box-menu-content-item a:focus,
+.hideNavbar .box-container .container .box-content .content-mask .content-offset .content-offset-wrapper .content .content-top .box-menu .box-menu-content .box-menu-content-item a:hover {
+  color: #111111;
+  transition: 0.2s ease-in-out;
+}
+.showNavbar .box-container .container .box-image,
+.hideNavbar .box-container .container .box-image {
+  width: 100%;
+  background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/5523db5a-e2b2-497f-a88b-61f175c3dbad/924da883-2be9-48cc-84cc-45dbf5c7d2da/VN-en-20230306-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+  background-color: #111111;
+  background-position: center center;
+  background-attachment: scroll;
+  -ms-background-size: cover;
+  background-size: cover;
+}
+
+.showNavbar {
+  transform: translate(0, 0);
+}
+
+.hideNavbar {
+  transform: translateX(-100%);
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+  .showNavbar .box-container .container .box-content .content-mask .content-offset .content-offset-wrapper .content .content-top .box-menu .box-menu-content .box-menu-content-item a, .hideNavbar .box-container .container .box-content .content-mask .content-offset .content-offset-wrapper .content .content-top .box-menu .box-menu-content .box-menu-content-item a {
+    font-size: 2.75rem;
+  }
+}
+@media (max-width: 425px) {
+  .showNavbar .box-container .container .box-content .content-mask .content-offset .content-offset-wrapper .content, .hideNavbar .box-container .container .box-content .content-mask .content-offset .content-offset-wrapper .content {
+    padding: 30px;
+  }
+  .showNavbar .box-container .container .box-content .content-mask .content-offset .content-offset-wrapper .content .content-top .box-menu .box-menu-content .box-menu-content-item a, .hideNavbar .box-container .container .box-content .content-mask .content-offset .content-offset-wrapper .content .content-top .box-menu .box-menu-content .box-menu-content-item a {
+    font-size: 1.75rem;
+  }
+}/*# sourceMappingURL=uNavbar.css.map */

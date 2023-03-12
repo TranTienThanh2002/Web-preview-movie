@@ -1,0 +1,74 @@
+.breadcrumb {
+  background-image: url(https://demo.gloriathemes.com/noxe/demo/wp-content/uploads/2020/02/title-bar-background.jpg);
+  background-position: center center;
+  background-attachment: scroll;
+  -ms-background-size: cover;
+  background-size: cover;
+  padding-top: 350px !important;
+  padding: 250px 0;
+  position: relative;
+  z-index: 0;
+}
+.breadcrumb .container {
+  width: 1520px;
+  max-width: 100%;
+  padding: 0 100px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.breadcrumb .container h2 {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  margin: 0 0 10px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  opacity: 0.6;
+  color: #fff;
+}
+.breadcrumb .container h1 {
+  font-size: 6.625rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 1;
+  -webkit-text-stroke: 2px #ffffff;
+  -webkit-text-fill-color: transparent;
+}
+.breadcrumb::before {
+  background: rgba(0, 0, 0, 0.65);
+  background-color: rgba(0, 0, 0, 0.65);
+  content: "";
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+@media (min-width: 769px) and (max-width: 1025px) {
+  .breadcrumb {
+    padding-top: 300px !important;
+  }
+}
+@media (min-width: 426px) and (max-width: 768px) {
+  .breadcrumb {
+    padding-top: 200px !important;
+    padding-bottom: 200px !important;
+  }
+}
+@media (max-width: 425px) {
+  .breadcrumb {
+    padding: 200px 0 !important;
+  }
+  .breadcrumb .container {
+    padding: 0 30px;
+  }
+  .breadcrumb .container h1 {
+    font-size: 5rem;
+  }
+}/*# sourceMappingURL=Breadcrumb.css.map */

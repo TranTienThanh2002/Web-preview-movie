@@ -1,0 +1,41 @@
+.card-celeb-profile {
+  transition: 0.3s;
+}
+.card-celeb-profile a {
+  transition: 0.2s;
+  outline: 0;
+}
+.card-celeb-profile a .item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+.card-celeb-profile a .item .profile {
+  display: flex;
+  align-items: center;
+  flex: 2;
+}
+.card-celeb-profile a .item .profile .photo {
+  padding-right: 30px;
+}
+.card-celeb-profile a .item .profile .photo img {
+  border-radius: 50%;
+  max-width: 80px;
+  max-height: 80px;
+  width: 80px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.card-celeb-profile a .item .profile .title .sub-title {
+  display: block;
+  opacity: 0.6;
+  font-size: 0.75rem;
+}
+.card-celeb-profile a .item .profile .title .name {
+  font-size: 16px;
+  font-weight: bold;
+  display: block;
+  white-space: nowrap;
+}/*# sourceMappingURL=CardCelebProfile.css.map */

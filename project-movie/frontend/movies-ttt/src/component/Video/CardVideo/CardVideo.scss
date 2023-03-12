@@ -1,0 +1,57 @@
+.card-video {
+    width: 100%;
+  .card-video-content {
+    width: 100%;
+    // margin-left: auto;
+    // margin-right: auto;
+    .cover {
+      a {
+        background: #111111;
+        color: #ffffff;
+        min-height: 100px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        iframe{
+          width: 100%;
+          height: auto;
+        }
+        .play-icon {
+          position: absolute;
+          width: 60px;
+          height: 60px;
+          z-index: 1;
+          
+
+          .icon {
+            width: 100%;
+            font-size: 60px;
+          }
+          img {
+            opacity: 0.7;
+            width: 100%;
+            object-fit: cover;
+            height: auto;
+          }
+          
+        }
+        .time {
+            font-weight: bold;
+            font-size: 0.875rem;
+            line-height: 1;
+            position: absolute;
+            left: 25px;
+            bottom: 25px;
+          }
+      }
+    }
+    .title {
+      font-size: 0.875rem;
+      margin-top: 20px;
+      text-align: center;
+      font-weight: bold;
+    }
+  }
+}

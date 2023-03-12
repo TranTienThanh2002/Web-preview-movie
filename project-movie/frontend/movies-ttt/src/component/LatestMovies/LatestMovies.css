@@ -1,0 +1,109 @@
+.latest-movies {
+  position: relative;
+  margin-bottom: 80px;
+  width: 100%;
+  max-width: 1520px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.latest-movies .container .inner {
+  padding-top: 35px;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+}
+.latest-movies .container .inner .content .row-content {
+  margin-bottom: 120px !important;
+  position: relative;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.latest-movies .container .inner .content .row-content .content-inner {
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+  text-align: center;
+}
+.latest-movies .container .inner .content .row-content .content-inner .subtitle {
+  font-size: 0.813rem;
+  opacity: 0.6;
+  font-weight: 500;
+  margin-bottom: 15px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.latest-movies .container .inner .content .row-content .content-inner .title {
+  font-size: 3rem;
+  line-height: 1.2;
+}
+.latest-movies .container .inner .content .row-content .content-inner .text {
+  margin: 35px 0 0;
+  font-size: 1rem;
+  opacity: 0.6;
+}
+.latest-movies .container .inner .content .row-item-list .item {
+  max-width: 1520px;
+}
+.latest-movies .container .inner .content .row-item-list .item .item-content {
+  width: 100%;
+  position: relative;
+}
+.latest-movies .container .inner .content .row-item-list .item .item-content .control-btn .next {
+  right: 0;
+}
+.latest-movies .container .inner .content .row-item-list .item .item-content .control-btn .prev {
+  left: 0;
+}
+.latest-movies .container .inner .content .row-item-list .item .item-content .control-btn button {
+  position: absolute;
+  background: none;
+  border: none;
+  bottom: 10px;
+  z-index: 10;
+}
+.latest-movies .container .inner .content .row-item-list .item .item-content .control-btn button .icons {
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+  cursor: pointer;
+  outline: none;
+  transition: 0.3s;
+}
+.latest-movies .container .inner .content .row-item-list .item .item-content .slick-dots {
+  display: inline-block !important;
+  margin: 37px auto 0 !important;
+  padding: 37px 0 !important;
+  margin-top: 60px !important;
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+  position: relative !important;
+}
+.latest-movies .container .inner .content .row-item-list .item .item-content .box-item {
+  text-align: center;
+  width: 90% !important;
+  margin-right: auto;
+  margin-left: auto;
+}
+.latest-movies .container .inner .content .row-item-list .item .item-content .box-item .poster {
+  position: relative;
+  margin-bottom: 30px;
+}
+.latest-movies .container .inner .content .row-item-list .item .item-content .box-item .poster a img {
+  width: 100%;
+}
+.latest-movies .container .inner .content .row-item-list .item .item-content .box-item .details .title {
+  font-size: 1.375rem;
+  font-weight: 600;
+  margin-bottom: 2.5px;
+}
+.latest-movies .container .inner .content .row-item-list .item .item-content .box-item .details .genres {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 0.875rem;
+  opacity: 0.6;
+  justify-content: center;
+}
+.latest-movies .container .inner .content .row-item-list .item .item-content .box-item .details .genres .genres-item a:not(:last-child):after {
+  content: ",";
+  margin-right: 4px;
+}/*# sourceMappingURL=LatestMovies.css.map */

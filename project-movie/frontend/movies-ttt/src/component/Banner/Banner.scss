@@ -1,0 +1,139 @@
+.banner {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 125px !important;
+  
+  .container{ 
+    height: 100vh;
+    transition: opacity .5s ease;
+    overflow: hidden;
+    .box-image {
+      background-image: url("../../assets/image/banner.jpg");
+      height: 100%;
+      width: 100%;
+      z-index: -1;
+      position: absolute;
+      left: 0;
+      top: 0;
+      background-size: cover;
+      background-position: center;
+      .overlay {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: #000000;
+        opacity: 0.3;
+      }
+    }
+    .box-content {
+      text-align: center;
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      left: 0;
+      top: 0;
+      .inner {
+        max-width: 100%;
+        padding: 0 100px;
+        display: flex;
+        flex-wrap: wrap;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        .inner-item {
+          max-width: 100%;
+          .subtitle {
+            width: 1060px;
+            margin: 0 0 35px;
+            font-size: 15px;
+            letter-spacing: 5px;
+            color: #ffffff;
+            max-width: 100%;
+            font-weight: 600;
+          }
+          .title {
+            width: 1060px;
+            margin: 0 0 55px;
+            font-size: 130px;
+            line-height: 1;
+            color: #ffffff;
+            max-width: 100%;
+            font-weight: 600;
+          }
+          .text {
+              margin-top: 15px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width:769px) and (max-width:1025px){
+  .banner{
+    .container{
+      .box-content{
+        .inner{
+          .inner-item{
+            .title{
+              font-size: 110px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width:426px) and (max-width:768px){
+  .banner{
+    .container{
+      .box-content{
+        .inner{
+          padding: 0 50px;
+          .inner-item{
+            .title{
+              font-size: 100px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (min-width:426px) and (max-width:768px){
+  .banner{
+    .container{
+      .box-content{
+        .inner{
+          padding: 0 15px;
+          .inner-item{
+            .title{
+              font-size: 70px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width:425px){
+  
+  .banner{
+    margin-bottom: 50px !important;
+    .container{
+      .box-content{
+        .inner{
+          padding: 0 15px;
+          .inner-item{
+            .title{
+              font-size: 70px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
